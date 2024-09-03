@@ -1,4 +1,4 @@
-var ne=8;
+var ne=math.floor(math.random() * (50 - 1) + 1);
 function adivinar(){
     var nd=document.getElementById("barra").value;
     if(ne==nd){
