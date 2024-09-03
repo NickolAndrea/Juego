@@ -2,10 +2,10 @@ var ne=Math.floor(Math.random() * (50 - 1) + 1);
 function adivinar(){
     var nd=document.getElementById("barra").value;
     if(ne==nd){
-        alert("GANASTE");
+        alert("GANASTE")
     }else if(ne>nd){
-        alert("EL NÙMERO ES MAYOR");
-    }else {
-        alert("EL MÙMERO ES MENOR");
+        alert("EL NÚMERO ES MAYOR");
+    }else{
+        alert("EL NÚMERO ES MENOR");
     }
 }
